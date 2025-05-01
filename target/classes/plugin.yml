@@ -1,0 +1,13 @@
+name: DemoPlugin
+version: '0.12'
+main: com.slowhandsmcgee.demoPlugin.DemoPlugin
+api-version: '1.21'
+author: SlowHandsMcGee
+description: A basic plugin template with command and event support.
+commands:
+  dpversion:
+    description: Shows plugin version info
+    usage: /dpversion
+  minigame:
+    description: Joins or starts minigames
+    usage: /minigame [minigame] [join/start]
